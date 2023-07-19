@@ -258,8 +258,7 @@ left: 40%;
 .online-game-container{
     position: relative;
 }
- .online-game-text{
- }
+
 .online-game-text p{
     color: #534C64;
 text-align: center;
@@ -495,7 +494,7 @@ font-weight: 500;
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:576px) {
 
 
     .nav-container{
@@ -640,7 +639,7 @@ width: 20px;
 
 .fotter-container{
 width: auto;
-height: auto;
+height: 750px;
 }
 
 .fotter-name{
@@ -661,8 +660,61 @@ margin:0px auto ;
 }
 .fotter-container h5{
 margin: 0px auto;
-margin-bottom: 50px;
+margin-bottom: -100px;
    width: 60%;
 
 }
+}
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:1400px) {
+    .nav-container{
+    flex-direction: column;
+    }
+
+.png-1, .png-2, .png-3{
+margin-left: 20px;
+    }
+    .btn-1{
+    margin-left: 10px;
+    margin-right: 0px;
+    }
+    .online-game-container{
+        margin: 0px;
+    }
+    .playing-icon img{
+        display: none;
+    }
+    .online-game-img{
+        margin: 10px ;
+    }
+    .play-section-container{
+        flex-direction: column;
+    }
+
+    .play-details{
+        width: 100%;
+        
+    }
+    .play-img{
+        width: 100%;
+    }
+    .play-details p{
+        margin-left: 50px;
+        padding-left: 0px;
+    }
+    
+      
+    .buttton-comntainer{
+   padding-left: 0px;
+padding-right: -10ppx;
+       width: 98%;
+    grid-template-columns: repeat(3,1fr);    }
+    .fotter-name{
+        margin-left: 200px ;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
