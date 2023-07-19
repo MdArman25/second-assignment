@@ -231,6 +231,7 @@ margin-bottom: 40px;
 .play-section-container{
     max-width: 1400px;
     display: flex;
+
 }
 
 .play-details{
@@ -265,18 +266,18 @@ left: 40px;
 .play-details h1{
     font-size: 40px;
     font-weight: 700;
-    border: 1px solid greenyellow;
     width: 50%;
     margin-left: 250px;
 }
 .play-details p{
-    border: 1px solid red;
-    padding-left: 200px;
+    padding-left: 250px;
     margin-top: -20px;
     color: #534C64;
 text-align: center;
 font-size: 18px;
 font-weight: 400;
+margin-right:10px;
+width: 80%;
 
 }
 .color{
@@ -286,6 +287,44 @@ background-clip: text;
 -webkit-background-clip: text;
 
 }
+
+
+.buttton-comntainer{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(5,230px);
+ width: 100%;
+ padding-left: 180px;
+
+
+ 
+}
+.buttton-comntainer p{
+    height: 40px;
+    padding-left: 20px;
+    padding-top:5px;
+
+}
+.buttton-comntainer p:hover {
+    border: 1px solid red;
+    border-radius: 50px;
+background: #FFF;
+color: red;
+cursor:pointer;
+}
+
+.buttton-comntainer img{
+ 
+   width: 30px;
+ 
+ margin-bottom: -10px;
+
+}
+
+
+
+
+
 
 
 
@@ -324,18 +363,14 @@ background-clip: text;
 
 
     .nav-container{
-        max-width: 425px;
    margin-left: 0px;
 flex-direction: column;
 padding-left: 20px;
-/* display: none; */
-border: 1px solid red;
 
 ;
 
     }
     .nav-logo{
-        /* border: 1px solid red ; */
      width: 100%;
         font-size: 30px;
         padding-left: 80px;
@@ -374,17 +409,15 @@ margin-top:-100px;
 
     .main-continer{
         flex-direction: column-reverse;
-        max-width: 425px;
-        /* display: none; */
-        border: 1px solid rebeccapurple;
+        margin-left: 30px;
     }
     .main-img {
        
         width: 100%;
         margin-top: 70px;
+       
     }
     .main-text{
-        border: 2px solid blue;
       width: 100%;
     }
  
@@ -400,11 +433,11 @@ margin-left: 50px;
 
 
 .online-game-container{
-    max-width: 405px;
-        border: 1px solid rebeccapurple;
+
         width: 100%;
     margin: 0px;
-    /* display: none; */
+    margin-left: 20px;
+ 
     
     }
     .online-game-img{
@@ -417,5 +450,59 @@ margin-left: 50px;
         margin-top: 20px;
 
     }
+
+.play-section-container{
+    flex-direction: column; padding-left: 30px;
+}
   
+  .play-details{
+    margin-top: 10px ;
+    justify-content: center;
+    width: 100%;}
+    .play-details h1{
+        font-size: 25px;
+        margin-left: 120px;
+        margin-bottom: 40px;
+    }
+  .play-details p{
+    padding-left: 0px ;
+    width: 110%;
+    font-size: 1.2rem;
+
+
+  }.play-img .img-1{
+    width: 110%;
+ margin:30px 100px;
+  }
+
+.play-img .img-2{
+    width: 40%;
+    left: 80px;
+    bottom: 30px;
+}
+
+
+.buttton-comntainer{
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 0px;
+    width: 120%;
+border: 1px solid green;
+}
+.buttton-comntainer p{
+    padding-left: 18px ;
+    font-size: 11px;
+    padding-top: 10px;
+
+   
+    
+}
+.buttton-comntainer img{
+width: 20px;
+}
+
+
+
+
+
+
 }
