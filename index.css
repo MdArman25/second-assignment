@@ -485,12 +485,11 @@ margin-left: 50px;
 .buttton-comntainer{
     grid-template-columns: repeat(3,1fr);
     padding-left: 0px;
-    width: 120%;
-border: 1px solid green;
+    width: 100%;
 }
 .buttton-comntainer p{
     padding-left: 18px ;
-    font-size: 11px;
+    font-size: 8px;
     padding-top: 10px;
 
    
