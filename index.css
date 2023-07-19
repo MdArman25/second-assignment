@@ -5,12 +5,12 @@
 body{
     margin: 0px ;
     padding: 0px ;
-    max-width: 1400px;
     font-family: 'Work Sans', sans-serif;
  
 }
 
 .nav-container{
+    max-width: 1400px;
 
     display: flex;
 padding-left: 120px;
@@ -94,6 +94,8 @@ margin: 0px 3px;
 
 
 .main-continer{
+    max-width: 1400px;
+
     display: flex;
   
 }
@@ -182,6 +184,8 @@ margin-right: 30px;
 }
 .online-game-container{
     margin: 100px;
+    max-width: 1400px;
+
 }
 .online-game-text h1{
     color: #0B0223;
@@ -205,6 +209,57 @@ font-weight: 300;
 
 
 }
+
+.playing-icon-2{
+    position: absolute;
+  top: 60%;
+  left: 80%;
+  background-size: cover;
+}
+.playing-icon{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+
+  background-size: cover;
+}
+.playing-icon-3{
+    position: absolute;
+ top: 60%;
+left: 40%;
+  background-size: cover;
+
+}
+.playing-icon-4{
+    position: absolute;
+  top: 60%;
+  left: 60%;
+ 
+  background-size: cover;
+
+}
+
+.playing-icon-2 img{
+    width: 30px;
+  
+}
+.playing-icon-3 img{
+    width: 30px;
+  
+}
+.playing-icon-4 img{
+    width: 30px;
+  
+}
+.playing-icon img{
+    width: 30px;
+  
+}
+.online-game-container{
+    position: relative;
+}
+ .online-game-text{
+ }
 .online-game-text p{
     color: #534C64;
 text-align: center;
@@ -218,9 +273,14 @@ margin-bottom: 40px;
     width:100%;
    
 }
+.online-game-img img:hover{
+cursor: cell;
+
+}
 
 
 .online-game-img{
+ 
     display: grid;
    width: 80%;
    gap: 20px;
@@ -231,6 +291,8 @@ margin-bottom: 40px;
 .play-section-container{
     max-width: 1400px;
     display: flex;
+    max-width: 1400px;
+
 
 }
 
@@ -291,6 +353,8 @@ background-clip: text;
 
 .buttton-comntainer{
     display: grid;
+    max-width: 1400px;
+
     align-items: center;
     grid-template-columns: repeat(5,230px);
  width: 100%;
@@ -319,6 +383,78 @@ cursor:pointer;
  
  margin-bottom: -10px;
 
+}
+
+
+.fotter-container{
+    background-color:#0B0223 ; 
+     color: white;
+height: 600px;
+width: auto;
+}
+.fotter-container h5{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+margin-top: 0px
+;font-weight: 500;
+margin-bottom:100px ;
+
+}
+.fotter-tittle{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding-top: 100px;
+  margin: 0px auto;
+
+  
+}
+.fotter-tittle img{
+    width:50px;
+ margin-right: 10px;
+}
+
+.fotter-name{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+margin-left: 400px;
+width: 70%;
+margin-top: 20px;
+}
+
+.fotter-img{
+    justify-content: center;
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+ width:30%;
+ margin: 30px auto;
+ 
+}
+.fotter-img img{
+    width: 30px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip:image;
+    -webkit-background-clip: image;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+
+.fotter-drescripsion{
+    display: grid;
+    justify-content: center;
+ grid-template-columns: repeat(4,1fr);
+ margin: 50px auto;
+    width: 50%;
+
+}
+.fotter-drescripsion p{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
 }
 
 
@@ -502,6 +638,31 @@ width: 20px;
 
 
 
+.fotter-container{
+width: auto;
+height: auto;
+}
 
+.fotter-name{
+margin:0px auto ;
+    grid-template-columns: repeat(3,1fr);
+}
+.fotter-img{
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;
+    width: 60%;
+  
+}
 
+.fotter-drescripsion{
+    grid-template-columns: repeat(2,1fr);
+  
+   width: 100%;
+}
+.fotter-container h5{
+margin: 0px auto;
+margin-bottom: 50px;
+   width: 60%;
+
+}
 }
